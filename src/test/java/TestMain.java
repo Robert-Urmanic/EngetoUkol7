@@ -8,4 +8,10 @@ public class TestMain {
         Main main = new Main();
         assertEquals(4, main.multiply(1,4));
     }
+
+    @Test
+    public void multiplyTest2(){
+        Main main = new Main();
+        assertEquals(6, main.multiply(3,3));
+    }
 }
